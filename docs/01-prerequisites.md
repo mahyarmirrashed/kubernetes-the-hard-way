@@ -15,7 +15,12 @@ The "jumpbox" is from where we will be administering/configuring the Kubernetes 
 | node-0  | Kubernetes worker node | 1   | 2GB   | 20GB    |
 | node-1  | Kubernetes worker node | 1   | 2GB   | 20GB    |
 
-How you provision the machines is up to you, the only requirement is that each machine meet the above system requirements including the machine specs and OS version. Once you have all four machines provisioned, verify the OS requirements by viewing the `/etc/os-release` file:
+How you provision the machines is up to you, the only requirement is that each machine meet the above system requirements including the machine specs and OS version.
+
+> [!NOTE]
+> You should configure these VMs in headless (no GUI/desktop) mode. Our labs will be performed entirely on the command line.
+
+Once you have all four machines provisioned, verify the OS requirements by viewing the `/etc/os-release` file:
 
 ```bash
 cat /etc/os-release
