@@ -56,7 +56,7 @@ Create a deployment for the [nginx](https://nginx.org/en/) web server:
 
 ```bash
 kubectl create deployment nginx \
-  --image=nginx:latest
+  --image=nginx:1.27.4
 ```
 
 List the pod created by the `nginx` deployment:
