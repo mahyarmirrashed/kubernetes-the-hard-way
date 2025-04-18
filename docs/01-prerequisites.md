@@ -6,6 +6,8 @@ In this lab you will review the machine requirements necessary to follow this tu
 
 This tutorial requires four (4) virtual or physical ARM64 or AMD64 machines running Debian 12 (bookworm). The following table lists the four machines and their CPU, memory, and storage requirements.
 
+The "jumpbox" is from where we will be administering/configuring the Kubernetes cluster.
+
 | Name    | Description            | CPU | RAM   | Storage |
 |---------|------------------------|-----|-------|---------|
 | jumpbox | Administration host    | 1   | 512MB | 10GB    |
